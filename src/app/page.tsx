@@ -257,7 +257,7 @@ export default function Home() {
           </motion.p>
         )}
 
-        {/* â”€â”€ Contact â”€â”€ */}
+        {/* ── Contact ── */}
         {(hasPhone || hasWhatsApp || hasEmail) && (
           <div className="w-full flex flex-col gap-3">
             <SectionLabel delay={nextDelay(0.05)}>Contact</SectionLabel>
@@ -266,7 +266,7 @@ export default function Home() {
               <AnimatedLinkRow
                 href={`tel:${coordonnees.telephone.replace(/\s+/g, '')}`}
                 icon={<Phone className="w-4 h-4 text-blue-400" />}
-                label="TÃ©lÃ©phone"
+                label="Téléphone"
                 value={coordonnees.telephone}
                 accent="border-blue-500/40"
                 delay={nextDelay(0.08)}
@@ -296,7 +296,7 @@ export default function Home() {
           </div>
         )}
 
-        {/* â”€â”€ Liens â”€â”€ */}
+        {/* ── Liens ── */}
         {(hasSiteWeb || hasInstagram || hasGoogleMaps) && (
           <div className="w-full flex flex-col gap-3">
             <SectionLabel delay={nextDelay(0.05)}>Liens Officiels</SectionLabel>
