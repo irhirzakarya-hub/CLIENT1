@@ -1,0 +1,21 @@
+{
+  "general": {
+    "nomCommercial": "MARIOS CAR",
+    "activite": "Location de voitures",
+    "ville": "Rabat, Maroc",
+    "description": "Creation d'agence de location de A a Z !",
+    "instagramHandle": "@marioscar.officiel"
+  },
+  "coordonnees": {
+    "telephone": "+212 777-805909",
+    "whatsapp": "+212 777-805909",
+    "email": "marioscar.rabat@gmail.com"
+  },
+  "liens": {
+    "siteWeb": "https://mariocars.ma/",
+    "instagram": "https://www.instagram.com/marioscar.officiel/",
+    "googleMaps": "https://maps.app.goo.gl/pgruaYVhrzebPh2s7?g_st=ac"
+  },
+  "customLinks": [],
+  "logo": "/logo/logo-1791144330284.jpeg"
+}
